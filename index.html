@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Word Counter: Analyse Text</title>
+		<link rel="stylesheet" href="assets/main.css" />
+	</head>
+	<body>
+		<header>
+			<h3>Word Counter</h3>
+		</header>
+		<form class="wrapper">
+			<textarea
+				id="text-area"
+				class="text-area"
+				required="true"
+				name="textfield"
+				autofocus
+			></textarea>
+			<div class="buttons">
+				<button type="submit" class="btn btn-primary" id="submit">
+					Analyse
+				</button>
+				<button type="reset" class="btn btn-gray" id="clear">Clear</button>
+			</div>
+		</form>
+		<div class="result">
+			<button class="btn" id="words"></button>
+			<button class="btn" id="characters"></button>
+		</div>
+		<script src="/dist/index.js"></script>
+	</body>
+</html>
